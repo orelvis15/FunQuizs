@@ -17,7 +17,8 @@
         android:layout_marginBottom="20dp"
         android:hint="Nombre"
         android:background="@drawable/edit_text_border"
-        android:padding="10dp"/>
+        android:padding="10dp"
+        android:maxLines="1"/>
 
     <EditText
         android:id="@+id/mail"
@@ -26,7 +27,8 @@
         android:layout_marginBottom="20dp"
         android:hint="Correo electronico"
         android:background="@drawable/edit_text_border"
-        android:padding="10dp"/>
+        android:padding="10dp"
+        android:maxLines="1"/>
 
     <EditText
         android:id="@+id/password"
@@ -36,7 +38,8 @@
         android:hint="Contraseña"
         android:inputType="textPassword"
         android:background="@drawable/edit_text_border"
-        android:padding="10dp"/>
+        android:padding="10dp"
+        android:maxLines="1"/>
 
     <EditText
         android:id="@+id/passwordRepeat"
@@ -46,7 +49,8 @@
         android:inputType="textPassword"
         android:hint="Repetir Contraseña"
         android:background="@drawable/edit_text_border"
-        android:padding="10dp"/>
+        android:padding="10dp"
+        android:maxLines="1"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -57,14 +61,18 @@
             android:id="@+id/cancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cancelar"/>
+            android:text="Cancelar"
+            android:background="@drawable/button_border"
+            android:textColor="@color/colorPrimaryDark"/>
 
         <Button
             android:id="@+id/create"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Crear"
-            android:layout_marginLeft="15dp"/>
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/button_border"
+            android:textColor="@color/colorPrimaryDark"/>
 
     </LinearLayout>
 

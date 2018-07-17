@@ -29,6 +29,11 @@
         android:id="@+id/problems"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Problemas"/>
+        android:text="Problemas"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_border"
+        android:padding="15dp"
+        android:textColor="@color/colorPrimaryDark"/>
 
 </LinearLayout>

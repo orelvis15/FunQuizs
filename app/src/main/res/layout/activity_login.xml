@@ -16,13 +16,19 @@
         android:inputType="textEmailAddress"
         android:layout_marginBottom="20dp"
         android:layout_marginTop="200dp"
-        android:hint="Email"/>
+        android:hint="Email"
+        android:maxLines="1"
+        android:background="@drawable/edit_text_border"
+        android:padding="10dp"/>
     <EditText
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
-        android:hint="Password"/>
+        android:hint="Password"
+        android:maxLines="1"
+        android:background="@drawable/edit_text_border"
+        android:padding="10dp"/>
 
     <Button
         android:id="@+id/btnLogin"
@@ -30,13 +36,16 @@
         android:layout_height="wrap_content"
         android:text="Login"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"/>
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_border"
+        android:textColor="@color/colorPrimaryDark"/>
 
     <CheckBox
         android:id="@+id/remember"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Recordar las credenciales"/>
+        android:text="Recordar las credenciales"
+        android:layout_marginTop="5dp"/>
 
     <TextView
         android:id="@+id/sms"
@@ -44,7 +53,7 @@
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:layout_gravity="center_vertical|center_horizontal"
-        android:layout_marginTop="30dp"/>
+        android:layout_marginTop="25dp"/>
 
     <TextView
         android:id="@+id/create"
@@ -52,5 +61,5 @@
         android:layout_height="wrap_content"
         android:text="No tienes cuenta? Crea Una."
         android:layout_gravity="bottom|center"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="25dp" />
 </LinearLayout>
